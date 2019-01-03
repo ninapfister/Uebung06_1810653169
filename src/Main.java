@@ -19,5 +19,18 @@ public class Main
         {
             System.out.println(freunde.get(i).toString()); // ausgeben, get i greift auf Freund zu, mit toString Methode
         }
+
+        // Aufgabe 5
+
+        List<Student> students = new ArrayList<>(); //ArrayList
+
+        students.add(new Student("Nina", 1810653169, 1997)); // 3 Objekte vom Typ Student
+        students.add(new Student("Sabrina", 1810653748, 1993)); //mit add fügt man den Student der Liste hinzu
+        students.add(new Student("Martin", 1810653444, 1992));
+
+        for (Student item : students) // mit item greift man auf die Studenten zu, for-each-Schleife
+        {
+            System.out.println(item.toString()); // gibt mit der Methode to String aus
+        }
     }
 }
