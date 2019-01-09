@@ -12,7 +12,6 @@ public class Aufgabe3
             array2[i] = (int)(Math.random() * 100); // mit Zufallszahlen befüllen (Math.random), Obergrenze 100
         }
 
-
-
+        // nicht vollständig
     }
 }

@@ -20,6 +20,6 @@ public class Freund
     @Override // überschreiben
     public String toString()  // toString Methode
     {
-        return "Freund: " + name; //gibt die Freunde aus
+        return "Freund: " + getName(); //gibt die Freunde aus, getName() weil dafür getter und setter
     }
 }
